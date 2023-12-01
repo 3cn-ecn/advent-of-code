@@ -93,7 +93,7 @@ class MyParser(object):
 
 p = MyParser()
 
-with open("1/python/input.txt", "r") as f:
+with open("input.txt", "r") as f:
     text = f.read()
     text = duplicate_w_digits(text)
     res = p.parser.parse(text)
