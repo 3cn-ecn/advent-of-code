@@ -24,6 +24,6 @@
 To submit a solution, you need to open a Pull Request.
 
 1. [Fork](https://docs.github.com/fr/get-started/quickstart/fork-a-repo#forking-a-repository) the repository.
-2. Make your changes, following the steps above, [commit and push them](https://github.com/git-guides/git-commit).
+2. Make your changes, following the steps above, [commit and push them](https://github.com/git-guides/git-commit). The commit should have the same name as the PR (see below).
 3. [Open a Pull Request](https://docs.github.com/fr/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork) to this repo.
 4. Name the Pull Request like so `<day number> - <language name>`, for example: `12 - python`.
