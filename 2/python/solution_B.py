@@ -1,0 +1,1 @@
+print(sum([i+1 if nb == 0 else 0 for i,nb in enumerate([sum([1 if (cube.split()[1][0] == 'r' and int(cube.split()[0])>12) or (cube.split()[1][0] == 'g' and int(cube.split()[0])>13) or (cube.split()[1][0] == 'b' and int(cube.split()[0])>14) else 0 for cube in game]) for game in [line.split(": ")[1].replace(";",",").split(", ") for line in open("input.txt").readlines()]])]))
